@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chao Gu | Home</title>
+	<meta name="Description" content="Chao Gu is an Associate Professor of Economics at the University of Missouri." />
+	<link rel="icon" type="image/png" href="./images/icons/favicon.ico">
+	<link rel="stylesheet" href="./css/stylesheet.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:700,700i|Open+Sans:300,400,400i,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+	<div id="mu-bar" class="container">
+		<div class="content">
+			<a href="https://missouri.edu" target="_blank">
+				<img src="./images/mu-bar/MU_UniversitySig_horiz_RGB_REV.png" alt="University of Missouri">
+			</a>
+		</div>
+	</div>
+	<div id="header" class="container sticky add-shadow">
+		<div class="content">
+            <h1>Chao Gu</h1>
+			<span class="mobile-nav-toggle" id="menu-open" tabindex="0"><img src="./images/icons/menu_1.svg" /></span>
+			<span class="mobile-nav-toggle" id="menu-close" tabindex="1"><img src="./images/icons/X_simple_1.svg" /></span>
+			<div class="nav">
+				<!--#include virtual="./includes/header.html" -->
+                
+			</div>
+		</div>
+	</div>
+	<div id="main" class="container add-shadow">
+		<div class="content">
+			<!--#include virtual="./includes/home.html" -->
+            
+		</div>
+	</div>
+	<div id="footer" class="container">
+		<div class="content">
+			<h3 id="contact"><span>Contact</span></h3>
+			<!--#include virtual="./includes/footer.html" -->
+            
+		</div>
+	</div>
+</body>
+
+</html>
